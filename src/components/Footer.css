@@ -1,0 +1,14 @@
+.footer {
+    background-color: #000; 
+    color: #e63946;  
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    font-weight: bold;
+     font-family: "Roboto", serif;
+  }
+  

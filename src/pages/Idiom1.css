@@ -1,0 +1,33 @@
+#barSvg {
+    width: 1500px;
+    height: 600px;
+    border: black;
+  }
+  
+  .bar-tooltip {
+    position: absolute;
+    text-align: center;
+    width: 325px;
+    height: 350px;
+    box-sizing: border-box;
+    padding: 10px;
+    font: 12px sans-serif;
+    font-weight: 550;
+    background: white;
+    border: 1px solid;
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    pointer-events: none;
+    display: block;
+  }
+  
+  #tooltip-donut {
+    margin-top: 10px; /* Adjust space for the pie chart */
+    display: block; /* Ensure SVG is visible */
+  }
+    
+  #tooltip-c {
+    font-size: 14px;
+  }

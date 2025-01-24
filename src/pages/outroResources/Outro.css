@@ -1,0 +1,48 @@
+#quoteContainer {
+    display: flex; 
+    perspective: 500px;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#quoteDiv {
+    text-align: center;
+    opacity: 0;
+    transform: translateZ(-500px);
+}
+
+#outroF1Logo {
+  position: absolute;
+  opacity: 0;
+  width: 70%;
+}
+
+@keyframes enterAnimation {
+    0% {
+      opacity: 0;
+      transform: translateZ(-500px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateZ(0);
+    }
+}
+.animateEnter {
+    animation: enterAnimation 3s ease-in-out forwards;
+}
+
+@keyframes exitAnimation {
+  0% {
+    opacity: 1;
+    transform: translateZ(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateZ(500px);
+  }
+}
+.animateExit {
+  animation: exitAnimation 3s ease-in-out forwards;
+}

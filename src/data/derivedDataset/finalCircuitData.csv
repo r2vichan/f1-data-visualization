@@ -1,0 +1,78 @@
+,circuit_name,accident,collision,spun_off,fatal_accident,total,location,country
+5,Circuit de Monaco,119,76,66,0,261,Monte-Carlo,Monaco
+13,Autodromo Nazionale di Monza,52,40,52,1,145,Monza,Italy
+6,Circuit Gilles Villeneuve,46,45,46,1,138,Montreal,Canada
+12,Circuit de Spa-Francorchamps,53,47,37,0,137,Spa,Belgium
+8,Silverstone Circuit,39,42,46,0,127,Silverstone,UK
+17,Autódromo José Carlos Pace,38,44,31,0,113,São Paulo,Brazil
+19,Nürburgring,62,24,21,0,107,Nürburg,Germany
+20,Autodromo Enzo e Dino Ferrari,12,21,55,0,88,Imola,Italy
+18,Indianapolis Motor Speedway,60,9,18,0,87,Indianapolis,USA
+21,Suzuka Circuit,27,23,36,0,86,Suzuka,Japan
+9,Hockenheimring,25,34,26,0,85,Hockenheim,Germany
+0,Albert Park Grand Prix Circuit,19,51,12,0,82,Melbourne,Australia
+10,Hungaroring,17,34,26,0,77,Budapest,Hungary
+3,Circuit de Barcelona-Catalunya,5,39,32,0,76,Montmeló,Spain
+22,Red Bull Ring,32,30,11,0,73,Spielberg,Austria
+36,Circuit Park Zandvoort,46,8,14,0,68,Zandvoort,Netherlands
+27,Adelaide Street Circuit,13,18,27,0,58,Adelaide,Australia
+37,Zolder,35,4,13,0,52,Heusden-Zolder,Belgium
+40,Long Beach,27,14,11,0,52,California,USA
+28,Kyalami,29,7,14,0,50,Midrand,South Africa
+7,Circuit de Nevers Magny-Cours,6,12,29,0,47,Magny Cours,France
+23,Autódromo Juan y Oscar Gálvez,18,21,8,0,47,Buenos Aires,Argentina
+25,Autódromo do Estoril,11,9,26,0,46,Estoril,Portugal
+35,Brands Hatch,18,9,10,0,37,Kent,UK
+43,Watkins Glen,24,3,9,1,37,New York State,USA
+34,Detroit Street Circuit,20,8,8,0,36,Detroit,USA
+1,Sepang International Circuit,4,11,19,0,34,Kuala Lumpur,Malaysia
+14,Marina Bay Street Circuit,18,14,0,0,32,Marina Bay,Singapore
+33,Autódromo Internacional Nelson Piquet,7,15,10,0,32,Rio de Janeiro,Brazil
+30,Autódromo Hermanos Rodríguez,10,9,8,0,27,Mexico City,Mexico
+24,Circuito de Jerez,1,9,13,0,23,Jerez de la Frontera,Spain
+45,Mosport International Raceway,17,2,3,0,22,Ontario,Canada
+16,Shanghai International Circuit,6,10,5,0,21,Shanghai,China
+32,Circuit Paul Ricard,12,3,6,0,21,Le Castellet,France
+42,Jarama,16,0,4,0,20,Madrid,Spain
+66,Korean International Circuit,3,10,1,0,14,Yeongam County,Korea
+69,Sochi Autodrom,3,11,0,0,14,Sochi,Russia
+2,Bahrain International Circuit,3,10,0,0,13,Sakhir,Bahrain
+38,Dijon-Prenois,8,3,2,0,13,Dijon,France
+39,Fair Park,1,0,12,0,13,Dallas,USA
+15,Fuji Speedway,4,8,0,0,12,Oyama,Japan
+44,Scandinavian Raceway,8,0,4,0,12,Anderstorp,Sweden
+70,Baku City Circuit,6,6,0,0,12,Baku,Azerbaijan
+49,Yas Marina Circuit,2,9,0,0,11,Abu Dhabi,UAE
+46,Montjuïc,10,0,0,0,10,Barcelona,Spain
+26,Okayama International Circuit,0,5,4,0,9,Okayama,Japan
+64,Circuit Bremgarten,7,0,2,0,9,Bern,Switzerland
+68,Circuit of the Americas,3,5,1,0,9,Austin,USA
+4,Istanbul Park,0,5,3,0,8,Istanbul,Turkey
+31,Phoenix street circuit,1,4,3,0,8,Phoenix,USA
+11,Valencia Street Circuit,1,6,0,0,7,Valencia,Spain
+51,Rouen-Les-Essarts,7,0,0,0,7,Rouen,France
+53,Reims-Gueux,7,0,0,0,7,Reims,France
+29,Donington Park,0,3,3,0,6,Castle Donington,UK
+71,Autodromo Internazionale del Mugello,0,6,0,0,6,Mugello,Italy
+74,Jeddah Corniche Circuit,3,3,0,0,6,Jeddah,Saudi Arabia
+47,Nivelles-Baulers,3,2,0,0,5,Brussels,Belgium
+56,Aintree,4,0,1,0,5,Liverpool,UK
+62,Ain Diab,5,0,0,0,5,Casablanca,Morocco
+67,Buddh International Circuit,2,3,0,0,5,Uttar Pradesh,India
+41,Las Vegas Street Circuit,2,1,1,0,4,Nevada,USA
+57,Circuito da Boavista,2,0,2,0,4,Oporto,Portugal
+48,Charade Circuit,3,0,0,0,3,Clermont-Ferrand,France
+65,Circuit de Pedralbes,3,0,0,0,3,Barcelona,Spain
+75,Miami International Autodrome,0,3,0,0,3,Miami,USA
+50,Circuit Mont-Tremblant,2,0,0,0,2,Quebec,Canada
+54,Prince George Circuit,2,0,0,0,2,Eastern Cape Province,South Africa
+55,Zeltweg,2,0,0,0,2,Styria,Austria
+58,Riverside International Raceway,1,0,1,0,2,California,USA
+60,Monsanto Park Circuit,2,0,0,0,2,Lisbon,Portugal
+63,Pescara Circuit,2,0,0,0,2,Pescara,Italy
+59,AVUS,1,0,0,0,1,Berlin,Germany
+61,Sebring International Raceway,1,0,0,0,1,Florida,USA
+73,Losail International Circuit,0,1,0,0,1,Al Daayen,Qatar
+76,Las Vegas Strip Street Circuit,1,0,0,0,1,Las Vegas,United States
+52,Le Mans,0,0,0,0,0,Le Mans,France
+72,Autódromo Internacional do Algarve,0,0,0,0,0,Portimão,Portugal

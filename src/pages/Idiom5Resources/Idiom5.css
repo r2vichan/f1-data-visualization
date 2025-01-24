@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #000000;
+    color: #e63946;
+  }
+  
+  #chart-container {
+    margin-bottom: 20px;
+  }
+
+  .axis path,
+  .axis line {
+    shape-rendering: crispEdges;
+  }
+  
+  .axis text {
+    font-size: 12px;
+  }
+  
+  .x-axis text {
+    text-anchor: middle;
+  }
+  
+  .y-axis text {
+    text-anchor: middle;
+  }
+  
+  #checkbox-container-idiom5 label {
+    color: #e63946;
+    font-size: 14px;
+  }
+  
+   /* Optional: Styling for your slider and checkboxes */
+   input[type="range"] {
+    width: 100%;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  

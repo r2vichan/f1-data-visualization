@@ -1,0 +1,111 @@
+/* Set up the container for both the chart and the controls */
+.idiom-container4 {
+    display: flex;
+    justify-content: space-between; /* Aligns the plot and the controls side by side */
+    padding: 30px;
+    color: #e63946;
+    padding-top: 300px;
+  }
+  
+/* Wrapper for control panel */
+.control-panel {
+    height: 400px;              /* Overall height of the control panel */
+    display: flex;              /* Align children in a column */
+    flex-direction: column;     /* Stack the sections vertically */
+    overflow: hidden;           /* Hide any overflow content */
+  }
+  
+  /* Teams Section */
+  .teams-section {
+    height: 200px;              /* Fixed height for teams section */
+    display: flex;
+    flex-direction: column;     /* Stack the title and list vertically */
+    margin-bottom: 20px;
+  }
+  
+  /* Title for teams section (non-scrollable) */
+  .teams-section .section-title {
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    flex-shrink: 0;              /* Prevent title from shrinking */
+  }
+  
+  /* Scrollable list for teams */
+  .teams-list {
+    flex-grow: 1;               /* Allow the list to grow and take available space */
+    overflow-y: auto;           /* Enable vertical scrolling */
+    padding-right: 10px;        /* Optional padding for the scrollbar */
+  }
+  
+  /* Tracks Section */
+  .tracks-section {
+    height: 200px;              /* Fixed height for tracks section */
+    display: flex;
+    flex-direction: column;     /* Stack the title and list vertically */
+  }
+  
+  /* Title for tracks section (non-scrollable) */
+  .tracks-section .section-title {
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    flex-shrink: 0;              /* Prevent title from shrinking */
+  }
+  
+  /* Scrollable list for tracks */
+  .tracks-list {
+    flex-grow: 1;               /* Allow the list to grow and take available space */
+    overflow-y: auto;           /* Enable vertical scrolling */
+    padding-right: 10px;        /* Optional padding for the scrollbar */
+  }
+  
+
+  /* Customize the scrollbar */
+.teams-section::-webkit-scrollbar, .tracks-section::-webkit-scrollbar {
+    width: 8px; /* width of the scrollbar */
+  }
+  
+  .teams-section::-webkit-scrollbar-thumb, .tracks-section::-webkit-scrollbar-thumb {
+    background-color: #888; /* color of the scrollbar */
+    border-radius: 4px;
+  }
+  
+  .teams-section::-webkit-scrollbar-thumb:hover, .tracks-section::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* hover color of the scrollbar */
+  }
+
+  /* The container holding the chart (on the right side) */
+  .graph-container {
+    width: 70%; /* You can adjust this width based on your preference */
+    height: 500px; /* Set a fixed height for the chart */
+    position: relative;
+  }
+  
+  /* Make the teams and tracks menus scrollable past a certain height */
+  .scrollable-menu {
+    max-height: 300px; /* Set a max height for the scrollable menu */
+    overflow-y: auto; /* Enable scrolling when the content exceeds max-height */
+  }
+  
+  /* Tooltip style */
+  .tooltip {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Optional: Styling for your slider and checkboxes */
+  input[type="range"] {
+    width: 100%;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  

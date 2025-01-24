@@ -1,0 +1,202 @@
+/* Import the custom font */
+@font-face {
+    font-family: 'F1Font';
+    src: url('../assets/fonts/Formula1-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General Container */
+.home1-container, .home1-container2, .home1-container3  {
+    background-color: #121212;
+    color: #e63946;
+    padding: 2rem;
+    font-family: 'F1Font', sans-serif;
+}
+
+.home1-container2{
+
+    background-color: #191d21;
+
+}
+
+.home1-container3{
+
+    background-color: #20222e;
+
+}
+
+/* Full-page container setup */
+.full-page-container1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Full-page image section */
+.image1-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+}
+
+.image1-container img {
+    max-width: 50%;
+    max-height: 70%;
+    object-fit: contain;
+    margin-bottom: 0;
+    margin-top: -300px;
+    z-index: 1;
+}
+
+.image1-title h2{
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'F1Font';
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    margin-top: 150px;
+    text-align: center;
+    z-index: 2;
+}
+
+/* Sticky Car Video and Text Scrolling */
+.sticky1-container {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.sticky1-video {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+.sticky1-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+
+/* Scroll Section */
+.scroll-sectionx {
+    margin: 100vh auto;
+    padding: 2rem;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    color: #ffffff;
+    opacity: 0.7;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    position: relative;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-sectionx.active {
+    color: #ffffff;
+    opacity: 0.9;
+    transform: translateY(0);
+    z-index: 3;
+}
+
+.scroll-sectionx:not(.active) {
+    opacity: 0.5;
+    transform: translateY(10px);
+}
+
+.scroll-sectionx p {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.scroll-sectionx.last-scroll-section {
+    margin: 1rem auto;
+}
+
+/* Styles for idiom-wrapper */
+.idiom-wrapperx {
+    position: relative;
+    margin-bottom: 0vh; /* Ensures spacing between each idiom */
+}
+
+.idiom-contentx {
+    z-index: -5;
+}
+
+.sticky-titlex {
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+    z-index: 1;
+  }
+
+/* Styles for sticky idioms */
+.idiom-sectionx {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.idiom-sectionx.blurred {
+    filter: blur(5px); /* Gaussian blur effect */
+    pointer-events: none; /* Makes it non-interactable */
+}
+
+.idiom-sectionx.active {
+    filter: none; /* Remove blur when active */
+    pointer-events: auto; /* Allow interactions when active */
+}
+
+/* Scroll step text */
+.scroll-stepx {
+    padding: 2rem;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 50vh auto; /* Center the step in viewport during scroll */
+    text-align: center;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 500;
+}
+
+.scroll-step-last {
+    padding: 2rem;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    margin: 50vh auto; /* Center the step in viewport during scroll */
+    text-align: center;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+}
+
+.scroll-stepx p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}

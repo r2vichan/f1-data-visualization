@@ -1,0 +1,26 @@
+#partReliabilityModalHoverToolTipDiv {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font: 15px sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #2222229f;
+    pointer-events: none;
+    width: fit-content;
+    opacity: 0;
+}
+
+#partReliabilityModalContainer {
+    height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.2); 
+    border-radius: 5px;
+    background-color: #141414ea;
+}

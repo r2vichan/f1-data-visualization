@@ -1,0 +1,59 @@
+.navbar {
+    background-color: #000;  
+    color: #e63946;  
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+    z-index: 100;
+  }
+  
+  .navbar-title {
+    font-family: "Merriweather", serif;
+
+
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .logo-title-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .logo {
+    width: 75px;  
+    height: auto;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    font-family: "Merriweather", serif;
+  }
+  
+  .nav-link {
+    color: #e63946; 
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ffffff; 
+    border-bottom: 2px solid #e63946;  
+  }
+  
+  .active-link {
+    color: #fe9800;  
+    font-weight: bold;  
+    border-bottom: none;  
+    text-decoration: none;
+    font-size: 18px;
+   
+  }
+  
+  
