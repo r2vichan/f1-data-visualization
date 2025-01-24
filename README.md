@@ -1,6 +1,4 @@
-# Gautham-Kishore-Loga-Ravichandran-Vikram 
-
-(F1 Safety Visualization)
+F1 Data Visualization
 Clone this repository.
 
 Install the packages using `npm i`
